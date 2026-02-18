@@ -12,6 +12,10 @@ public class StudentTest {
     assertEquals("Mary","Mary",first.getName());
     assertEquals(1,first.getAge());
     Student.isFood("pepper");
+    Student.countStudents();
+    int expected=0;
+    int actual=Student.countStudents();
+     assertEquals(expected,actual);
 
     }
     
