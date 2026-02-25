@@ -8,7 +8,7 @@ Student(String firstName,String fallCourse){
     this.age=1;
     this.course=course;
     this.name=name;
-    ++studentcount;
+    // studentcount++;
 
 }
 public int getAge() {
@@ -34,6 +34,9 @@ public static String isFood(String foodString){
 
 }
 public static int countStudents(){
+    // This static method must have a static variable
+    // the static variable should be 
+     studentcount++;
     return  studentcount;
 
 }
