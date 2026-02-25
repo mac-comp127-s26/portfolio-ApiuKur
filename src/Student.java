@@ -1,4 +1,6 @@
-public class Student {
+import sample2.StudentInfo;
+
+public class Student implements  StudentInfo{
 private  String name;
 private int age;
 private String course;
@@ -39,6 +41,15 @@ public static int countStudents(){
      studentcount++;
     return  studentcount;
 
+}
+
+public void eat() {
+    System.out.println("I have already eaten my food");
+    
+}
+public void sleep() {
+    // TODO Auto-generated method stub
+  
 }
     
 }
